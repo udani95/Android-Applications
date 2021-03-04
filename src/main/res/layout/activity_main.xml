@@ -4,93 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#2E1919"
-        android:backgroundTint="#3A0E04"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="183dp">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse URL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"
+        tools:ignore="MissingConstraints" />
 
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:backgroundTint="#224765"
-            app:srcCompat="@drawable/images__1_" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn1"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="BOOK DETAILS"
-            android:textColor="#0B0A0A"
-            android:textSize="24sp" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn2"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="MEMBER DETAILS"
-            android:textColor="#0B0A0A"
-            android:textSize="24sp" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn3"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="PUBLISHER DETAILS"
-            android:textColor="#0C0C0C"
-            android:textSize="24sp" />
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn4"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="AUTHOR DETAILS"
-            android:textColor="#0C0C0C"
-            android:textSize="24sp" />
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn5"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="LENDING DETAILS"
-            android:textColor="#0C0C0C"
-            android:textSize="24sp" />
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn6"
-            android:layout_width="306dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
-
-            android:backgroundTint="#CF4325"
-            android:text="BRANCH DETAILS"
-            android:textColor="#0C0C0C"
-            android:textSize="24sp" />
-
-    </LinearLayout> />
-
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Local Files"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
